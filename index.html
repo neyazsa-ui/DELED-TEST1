@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar D.El.Ed Mega Mock Test</title>
+    <style>
+        :root { --primary: #1a73e8; --success: #2e7d32; --warning: #ff9800; --danger: #d32f2f; --purple: #7b1fa2; --gray: #757575; --light: #f8f9fa; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #eef2f7; user-select: none; }
+        header { background-color: var(--primary); color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; font-weight: bold; }
+        .main-container { display: flex; flex-wrap: wrap; max-width: 1200px; margin: 20px auto; gap: 20px; padding: 0 10px; }
+        .exam-area { flex: 3; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); min-width: 300px; }
+        .sidebar { flex: 1; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); min-width: 250px; display: flex; flex-direction: column; justify-content: space-between; }
+        .question-header { border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold; color: #333; }
+        .question-text { font-size: 18px; font-weight: 600; margin-bottom: 20px; line-height: 1.5; }
+        .options-container { display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px; }
+        .option-label { padding: 12px 15px; border: 1px solid #dadce0; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 10px; transition: all 0.2s; font-size: 16px; }
+        .option-label:hover { background-color: #f1f3f4; }
+        .btn-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        button { padding: 10px 18px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 14px; }
+        .btn-back { background: #e0e0e0; color: #333; }
+        .btn-skip { background: var(--gray); color: white; }
+        .btn-review { background: var(--purple); color: white; }
+        .btn-save { background: var(--success); color: white; }
+        .btn-submit { background: var(--primary); color: white; width: 100%; margin-top: 15px; font-size: 16px; padding: 12px; }
+        .btn-exit { background: var(--danger); color: white; }
+        .palette-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 15px; max-height: 250px; overflow-y: auto; padding: 5px; }
+        .palette-btn { width: 35px; height: 35px; border-radius: 4px; border: 1px solid #ccc; background: #e0e0e0; font-weight: bold; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 12px; }
+        .palette-btn.saved { background: var(--success); color: white; border-color: var(--success); }
+        .palette-btn.review { background: var(--purple); color: white; border-color: var(--purple); }
+        .palette-btn.skipped { background: var(--warning); color: white; border-color: var(--warning); }
+        .palette-btn.active { border: 2px solid #000; font-size: 14px; }
+        .result-screen { display: none; max-width: 600px; margin: 40px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+        .score-big { font-size: 48px; color: var(--primary); font-weight: bold; margin: 20px 0; }
+        .stats-table { width: 100%; margin: 20px 0; border-collapse: collapse; }
+        .stats-table th, .stats-table td { padding: 12px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>Bihar D.El.Ed CBT Engine</div>
+    <div id="timer">Time Elapsed: 00:00</div>
+</header>
+
+<div class="main-container" id="exam-dashboard">
+    <div class="exam-area">
+        <div class="question-header">
+            <span id="subject-tag">Loading Subject...</span> | Question <span id="q-num">1</span> of <span id="total-qs-count">0</span>
+        </div>
+        <div class="question-text" id="q-text">Sawal bank load ho raha hai...</div>
+        <div class="options-container" id="options-box"></div>
+        <div class="btn-container">
+            <button class="btn-back" onclick="goBack()">Back</button>
+            <button class="btn-skip" onclick="skipQuestion()">Skip</button>
+            <button class="btn-review" onclick="markForReview()">Mark for Review</button>
+            <button class="btn-save" onclick="saveAndNext()">Save & Next</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div>
+            <h3>Question Palette</h3>
+            <div class="palette-grid" id="palette-box"></div>
+        </div>
+        <div>
+            <button class="btn-exit" onclick="exitExam()">Exit Exam</button>
+            <button class="btn-submit" onclick="finalSubmit()">Final Submit</button>
+        </div>
+    </div>
+</div>
+
+<div class="result-screen" id="result-dashboard">
+    <h2>Testbook Performance Report</h2>
+    <div class="score-big" id="final-score">0</div>
+    <table class="stats-table">
+        <tr><th>Total Questions</th><td id="stat-total">0</td></tr>
+        <tr><th>Attempted</th><td id="stat-attempted">0</td></tr>
+        <tr><th>Correct Answers</th><td id="stat-correct" style="color:var(--success); font-weight:bold;">0</td></tr>
+        <tr><th>Incorrect Answers</th><td id="stat-incorrect" style="color:var(--danger); font-weight:bold;">0</td></tr>
+    </table>
+    <button class="btn-submit" style="width:auto; display:inline-block;" onclick="location.reload()">Re-take Test</button>
+</div>
+
+<script>
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    let quizData = [];
+    let currentIdx = 0;
+    let userResponses = [];
+    let questionStates = [];
+    let seconds = 0;
+
+    async function loadQuizData() {
+        try {
+            const response = await fetch('data.json');
+            quizData = await response.json();
+            
+            userResponses = Array(quizData.length).fill(null);
+            questionStates = Array(quizData.length).fill('unvisited');
+            document.getElementById('total-qs-count').innerText = quizData.length;
+            
+            startTimer();
+            loadExam();
+        } catch (error) {
+            document.getElementById('q-text').innerText = "Error: data.json file nahi mili ya format galat hai!";
+            console.error(error);
+        }
+    }
+
+    function playWrongBuzzer() {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.type = 'sawtooth'; osc.frequency.setValueAtTime(120, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+        osc.start(); osc.stop(audioCtx.currentTime + 0.3);
+    }
+
+    function playCorrectVoice() {
+        if ('speechSynthesis' in window) {
+            const utterance = new SpeechSynthesisUtterance("Aapka answer sahi hai");
+            utterance.lang = 'hi-IN'; window.speechSynthesis.speak(utterance);
+        }
+    }
+
+    function startTimer() {
+        setInterval(() => {
+            seconds++;
+            let mins = Math.floor(seconds / 60).toString().padStart(2, '0');
+            let secs = (seconds % 60).toString().padStart(2, '0');
+            document.getElementById('timer').innerText = `Time Elapsed: ${mins}:${secs}`;
+        }, 1000);
+    }
+
+    function loadExam() { renderPalette(); showQuestion(); }
+
+    function renderPalette() {
+        const box = document.getElementById('palette-box');
+        box.innerHTML = '';
+        quizData.forEach((_, index) => {
+            const btn = document.createElement('div');
+            btn.className = `palette-btn ${questionStates[index]}`;
+            if(index === currentIdx) btn.classList.add('active');
+            btn.innerText = index + 1;
+            btn.onclick = () => { currentIdx = index; loadExam(); };
+            box.appendChild(btn);
+        });
+    }
+
+    function showQuestion() {
+        if(quizData.length === 0) return;
+        const currentQ = quizData[currentIdx];
+        document.getElementById('q-num').innerText = currentIdx + 1;
+        document.getElementById('subject-tag').innerText = currentQ.subject;
+        document.getElementById('q-text').innerText = currentQ.question;
+        
+        const optsBox = document.getElementById('options-box');
+        optsBox.innerHTML = '';
+        currentQ.options.forEach(opt => {
+            const label = document.createElement('label');
+            label.className = 'option-label';
+            const radio = document.createElement('input');
+            radio.type = 'radio'; radio.name = 'quiz-option'; radio.value = opt;
+            if(userResponses[currentIdx] === opt) radio.checked = true;
+            label.appendChild(radio);
+            label.appendChild(document.createTextNode(opt));
+            optsBox.appendChild(label);
+        });
+    }
+
+    function saveAndNext() {
+        const selected = document.querySelector('input[name="quiz-option"]:checked')?.value;
+        if(!selected) { alert("कृपया कोई एक विकल्प चुनें!"); return; }
+        
+        if(selected === quizData[currentIdx].answer) { playCorrectVoice(); } 
+        else { playWrongBuzzer(); }
+
+        userResponses[currentIdx] = selected;
+        questionStates[currentIdx] = 'saved';
+        moveNext();
+    }
+
+    function skipQuestion() { questionStates[currentIdx] = 'skipped'; moveNext(); }
+    function markForReview() { 
+        userResponses[currentIdx] = document.querySelector('input[name="quiz-option"]:checked')?.value || null;
+        questionStates[currentIdx] = 'review'; 
+        moveNext(); 
+    }
+    function goBack() { if(currentIdx > 0) { currentIdx--; loadExam(); } }
+    function moveNext() { if(currentIdx < quizData.length - 1) { currentIdx++; loadExam(); } else { renderPalette(); } }
+    function exitExam() { if(confirm("Exit karna chahte hain?")) location.reload(); }
+
+    function finalSubmit() {
+        if(!confirm("Final Submit karein?")) return;
+        let correct = 0, incorrect = 0, attempted = userResponses.filter(r => r !== null).length;
+        quizData.forEach((item, idx) => {
+            if(userResponses[idx] !== null) {
+                if(userResponses[idx] === item.answer) correct++; else incorrect++;
+            }
+        });
+        document.getElementById('exam-dashboard').style.display = 'none';
+        document.getElementById('result-dashboard').style.display = 'block';
+        document.getElementById('final-score').innerText = `${correct} / ${quizData.length}`;
+        document.getElementById('stat-total').innerText = quizData.length;
+        document.getElementById('stat-attempted').innerText = attempted;
+        document.getElementById('stat-correct').innerText = correct;
+        document.getElementById('stat-incorrect').innerText = incorrect;
+    }
+
+    window.onload = loadQuizData;
+</script>
+</body>
+</html>
