@@ -1,0 +1,664 @@
+[
+  {
+    "id": 1,
+    "subject": "General English",
+    "question": "Fill: My shoes………. new.",
+    "options": ["are", "is", "were", "has"],
+    "answer": "are"
+  },
+  {
+    "id": 2,
+    "subject": "General English",
+    "question": "Meaning of 'in and outs':",
+    "options": ["Coming to and fro", "Coming in and out", "The details of any issue", "The partial details of any issue"],
+    "answer": "Coming in and out"
+  },
+  {
+    "id": 3,
+    "subject": "General English",
+    "question": "In a Constructivist Classroom, the teacher:",
+    "options": ["Maintains strict discipline", "Focuses on drilling difficult words", "Acts as a facilitator", "Follows as a silent observer"],
+    "answer": "Acts as a facilitator"
+  },
+  {
+    "id": 4,
+    "subject": "General English",
+    "question": "Meaning of 'Alliance with':",
+    "options": ["In contact of someone", "Divided into groups", "Work together to achieve something", "Against each other"],
+    "answer": "In contact of someone"
+  },
+  {
+    "id": 5,
+    "subject": "General English",
+    "question": "Fill: He died ……. over eating.",
+    "options": ["from", "of", "by", "with"],
+    "answer": "from"
+  },
+  {
+    "id": 6,
+    "subject": "General English",
+    "question": "Passive of 'I like it':",
+    "options": ["It was liked by me", "It has been liked by me", "It is liked by me", "It is being liked by me"],
+    "answer": "It has been liked by me"
+  },
+  {
+    "id": 7,
+    "subject": "General English",
+    "question": "Conditional: If Shahil had been online, he ……. to Rocky.",
+    "options": ["will chat", "would chat", "would have chatted", "will have chatted"],
+    "answer": "would have chatted"
+  },
+  {
+    "id": 8,
+    "subject": "General English",
+    "question": "Fill: I didn't like to spend time reading in class, but I enjoy it now.",
+    "options": ["Initially", "Overall", "Sometimes", "Never"],
+    "answer": "Initially"
+  },
+  {
+    "id": 9,
+    "subject": "General English",
+    "question": "Indirect: Nancy said, 'We went for a summer trip last year.'",
+    "options": ["we went/last year", "she went/year before", "you went/coming year", "they went/previous year"],
+    "answer": "they went/previous year"
+  },
+  {
+    "id": 10,
+    "subject": "General English",
+    "question": "Indirect: 'Why are you so sad?' asked Granny.",
+    "options": ["he was", "I was", "she was", "you are"],
+    "answer": "you are"
+  },
+  {
+    "id": 11,
+    "subject": "General English",
+    "question": "The word 'cricket' is a:",
+    "options": ["Homonym", "Homophone", "Antonym", "Synonym"],
+    "answer": "Homonym"
+  },
+  {
+    "id": 12,
+    "subject": "General English",
+    "question": "Identify the incorrect sentence:",
+    "options": ["He receives much gratitude", "He received much gratitude", "He receive much gratitude", "He has received much gratitude"],
+    "answer": "He has received much gratitude"
+  },
+  {
+    "id": 13,
+    "subject": "General English",
+    "question": "The word 'mighty' in 'The mighty river Brahmaputra' is:",
+    "options": ["Adverb", "Adjective", "Noun", "Pronoun"],
+    "answer": "Adjective"
+  },
+  {
+    "id": 14,
+    "subject": "General English",
+    "question": "Present perfect continuous: 'Workers ……. day and night.'",
+    "options": ["had been working", "have been working", "has been working", "are working"],
+    "answer": "have been working"
+  },
+  {
+    "id": 15,
+    "subject": "General English",
+    "question": "Meaning of 'Read between the lines':",
+    "options": ["Understanding hidden meaning", "Reading intensively", "Reading line by line", "Reading and understanding"],
+    "answer": "Understanding hidden meaning"
+  },
+  {
+    "id": 16,
+    "subject": "General English",
+    "question": "Meaning of 'Call upon':",
+    "options": ["To shout", "To order", "To change", "To bother"],
+    "answer": "To order"
+  },
+  {
+    "id": 17,
+    "subject": "General English",
+    "question": "Which word rhymes with 'walk'?",
+    "options": ["wake", "woke", "talk", "walks"],
+    "answer": "talk"
+  },
+  {
+    "id": 18,
+    "subject": "General English",
+    "question": "Oral communication consists of:",
+    "options": ["Reading and Speaking", "Reading and Listening", "Writing and Speaking", "Listening and Speaking"],
+    "answer": "Listening and Speaking"
+  },
+  {
+    "id": 19,
+    "subject": "General English",
+    "question": "A 'sight word' is a vocabulary item:",
+    "options": ["needs visual understanding", "learnt by heart", "recognizes on sight", "judges author's style"],
+    "answer": "recognizes on sight"
+  },
+  {
+    "id": 20,
+    "subject": "General English",
+    "question": "Meaning of 'Look down upon':",
+    "options": ["Admire", "Investigate", "Persuade", "Regard with contempt"],
+    "answer": "Regard with contempt"
+  },
+  {
+    "id": 21,
+    "subject": "General English",
+    "question": "Fill: Some milk ……. needed.",
+    "options": ["Were", "Are", "Is", "Have"],
+    "answer": "Have"
+  },
+  {
+    "id": 22,
+    "subject": "General English",
+    "question": "Meaning of 'At the eleventh hour':",
+    "options": ["At the last moment", "Happy moment", "Extreme disappointment", "A moment of satisfaction"],
+    "answer": "At the last moment"
+  },
+  {
+    "id": 23,
+    "subject": "General English",
+    "question": "Complete: Rohan ……. the movie before he read the review.",
+    "options": ["watches", "have watched", "had watched", "was watching"],
+    "answer": "had watched"
+  },
+  {
+    "id": 24,
+    "subject": "General English",
+    "question": "Passive of 'I saw him yesterday':",
+    "options": ["You have been seen", "You had been seen", "He was seen", "You were being seen"],
+    "answer": "He was seen"
+  },
+  {
+    "id": 25,
+    "subject": "General English",
+    "question": "Active of 'Why should I be insulted by you?':",
+    "options": ["Why do you insult me?", "Why should you insult me?", "Why am I insulted?", "Why am I being insulted?"],
+    "answer": "Why should you insult me?"
+  },
+  {
+    "id": 26,
+    "subject": "General English",
+    "question": "Complete: Sita or her brothers ……. to be blamed.",
+    "options": ["is", "has", "are", "was"],
+    "answer": "are"
+  },
+  {
+    "id": 27,
+    "subject": "General English",
+    "question": "Passive of 'I am to do it':",
+    "options": ["It is to be done by me", "It will be done", "It will be being done", "It has been done"],
+    "answer": "It is to be done by me"
+  },
+  {
+    "id": 28,
+    "subject": "General English",
+    "question": "Fill: ……. the engine driver saw danger, he applied brakes.",
+    "options": ["and", "to", "as soon as", "having"],
+    "answer": "having"
+  },
+  {
+    "id": 29,
+    "subject": "General English",
+    "question": "Fill: Neither of them ……. English.",
+    "options": ["knows", "know", "knowing", "known"],
+    "answer": "known"
+  },
+  {
+    "id": 30,
+    "subject": "General English",
+    "question": "Tense: 'He had been working in the garage.'",
+    "options": ["Future perfect continuous", "Future continuous", "Present perfect continuous", "Present perfect"],
+    "answer": "Present perfect continuous"
+  },
+  {
+    "id": 31,
+    "subject": "General English",
+    "question": "Indirect: 'You should revise your lessons', he said.",
+    "options": ["Scolded/his", "Advised/their", "Requested/his", "Explained/their"],
+    "answer": "Advised/their"
+  },
+  {
+    "id": 32,
+    "subject": "General English",
+    "question": "Conditional: If he forgot, I ……. remind him.",
+    "options": ["have", "had", "will", "would"],
+    "answer": "would"
+  },
+  {
+    "id": 33,
+    "subject": "General English",
+    "question": "Children engaged more when:",
+    "options": ["Sing rhymes after teacher", "Use multiple senses", "Trace letters", "Focus on fine motor"],
+    "answer": "Use multiple senses"
+  },
+  {
+    "id": 34,
+    "subject": "General English",
+    "question": "Fill: The judge commanded them to ……. first witness.",
+    "options": ["call", "called", "calling", "calls"],
+    "answer": "call"
+  },
+  {
+    "id": 35,
+    "subject": "General English",
+    "question": "Fill: I am fond ……. music.",
+    "options": ["off", "of", "at", "for"],
+    "answer": "of"
+  },
+  {
+    "id": 36,
+    "subject": "General English",
+    "question": "'I give final check for accuracy' is which stage?",
+    "options": ["Drafting", "Re-drafting", "Proof reading", "Peer-evaluation"],
+    "answer": "Proof reading"
+  },
+  {
+    "id": 37,
+    "subject": "General English",
+    "question": "Conditional: Their teacher ……. sad if they had not passed.",
+    "options": ["had been", "have been", "would have been", "would had been"],
+    "answer": "would have been"
+  },
+  {
+    "id": 38,
+    "subject": "General English",
+    "question": "Fill: We haven't got ……. money.",
+    "options": ["many", "much", "much of", "many of"],
+    "answer": "much of"
+  },
+  {
+    "id": 39,
+    "subject": "General English",
+    "question": "How many types of brackets?",
+    "options": ["One", "Two", "Three", "All"],
+    "answer": "Three"
+  },
+  {
+    "id": 40,
+    "subject": "General English",
+    "question": "Meaning of 'Within a stone's throw':",
+    "options": ["Throwing stones", "Very near", "Beating", "Under control"],
+    "answer": "Very near"
+  },
+  {
+    "id": 41,
+    "subject": "General English",
+    "question": "Which of the following pairs rhyme together?",
+    "options": ["Moor and Door", "Sun and Son", "Pen and Pain", "Ship and Sheep"],
+    "answer": "Moor and Door"
+  },
+  {
+    "id": 42,
+    "subject": "General English",
+    "question": "Passive of 'Let us dance':",
+    "options": ["It is suggested we should", "It was suggested we shall", "It has been suggested", "It is suggested we shall"],
+    "answer": "It was suggested we shall"
+  },
+  {
+    "id": 43,
+    "subject": "General English",
+    "question": "Fill: '... your transfer request is concerned'",
+    "options": ["As far as", "To begin with", "By the way", "Talking about"],
+    "answer": "Talking about"
+  },
+  {
+    "id": 44,
+    "subject": "General English",
+    "question": "Conditional: 'If you ... my best friend, I wouldn't tolerate'",
+    "options": ["aren't", "weren't", "haven't", "hadn't"],
+    "answer": "aren't"
+  },
+  {
+    "id": 45,
+    "subject": "General English",
+    "question": "Indirect of 'Where have you spent your money?'",
+    "options": ["I had/my", "he had/his", "he has/his", "she has/her"],
+    "answer": "he had/his"
+  },
+  {
+    "id": 46,
+    "subject": "Mathematics",
+    "question": "In a circle of radius 14 cm, an arc makes an angle of 120° at the center. If √3=1.73, area of segment is:",
+    "options": ["120.56 cm²", "124.63 cm²", "118.24 cm²", "130.57 cm²"],
+    "answer": "120.56 cm²"
+  },
+  {
+    "id": 47,
+    "subject": "Mathematics",
+    "question": "LCM of 420 and 272 is:",
+    "options": ["1", "2", "3", "4"],
+    "answer": "4"
+  },
+  {
+    "id": 48,
+    "subject": "Mathematics",
+    "question": "Points A(2,3), B(4,k), C(6,-3) collinear. Value of k is:",
+    "options": ["0", "1", "2", "5"],
+    "answer": "0"
+  },
+  {
+    "id": 49,
+    "subject": "Mathematics",
+    "question": "Fourth vertex D of parallelogram with A(-2,3), B(6,7), C(8,3):",
+    "options": ["0,1", "0,-1", "-1,0", "1,0"],
+    "answer": "0,-1"
+  },
+  {
+    "id": 50,
+    "subject": "Mathematics",
+    "question": "Annual income from 175 shares with quarterly dividend ₹3:",
+    "options": ["₹525", "₹1800", "₹2100", "₹2400"],
+    "answer": "₹2100"
+  },
+  {
+    "id": 51,
+    "subject": "Mathematics",
+    "question": "If sinθ - cosθ = 0, then sin⁴θ + cos⁴θ = ?",
+    "options": ["1", "3/4", "1/2", "1/4"],
+    "answer": "1/2"
+  },
+  {
+    "id": 52,
+    "subject": "Mathematics",
+    "question": "Sum of numerator and denominator of a fraction is 8. Adding 3 to both gives 3/4. The fraction is:",
+    "options": ["5/3", "3/5", "1/7", "None"],
+    "answer": "3/5"
+  },
+  {
+    "id": 53,
+    "subject": "Mathematics",
+    "question": "Two opposite angles 72° and 108°, quadrilateral is:",
+    "options": ["Parallelogram", "Rhombus", "Cyclic quadrilateral", "None"],
+    "answer": "Cyclic quadrilateral"
+  },
+  {
+    "id": 54,
+    "subject": "Mathematics",
+    "question": "In trapezium ABCD with AB ∥ CD and AD = BC, then:",
+    "options": ["∠A = ∠B", "∠A > ∠B", "∠A < ∠B", "None"],
+    "answer": "∠A = ∠B"
+  },
+  {
+    "id": 55,
+    "subject": "Mathematics",
+    "question": "tan10° tan20° tan45° tan70° tan80° = ?",
+    "options": ["1", "√3", "0", "8"],
+    "answer": "1"
+  },
+  {
+    "id": 56,
+    "subject": "Mathematics",
+    "question": "Which is NOT a quadratic equation?",
+    "options": ["x²+3x-5=0", "x²+x³+2=0", "x²=0", "x²-9=0"],
+    "answer": "x²+x³+2=0"
+  },
+  {
+    "id": 57,
+    "subject": "Mathematics",
+    "question": "2.121121112111112 is:",
+    "options": ["Even", "Integer", "Rational", "Irrational"],
+    "answer": "Irrational"
+  },
+  {
+    "id": 58,
+    "subject": "Mathematics",
+    "question": "In triangles ABC and DEF, ∠B=∠E, ∠F=∠C, AB=3DE. Triangles are:",
+    "options": ["Congruent only", "Similar only", "Neither", "Both"],
+    "answer": "Similar only"
+  },
+  {
+    "id": 59,
+    "subject": "Mathematics",
+    "question": "According to NEP 2020, Olympiads will be:",
+    "options": ["Easy", "Strong", "Discouraged", "Less"],
+    "answer": "Strong"
+  },
+  {
+    "id": 60,
+    "subject": "Mathematics",
+    "question": "Graph of y=5 is line parallel to:",
+    "options": ["X-axis", "Y-axis", "Both", "None"],
+    "answer": "X-axis"
+  },
+  {
+    "id": 61,
+    "subject": "Mathematics",
+    "question": "If ΔABC ~ ΔPQR and ar ratio 121:169, then BC:QR = ?",
+    "options": ["13:11", "11:13", "12:14", "14:12"],
+    "answer": "11:13"
+  },
+  {
+    "id": 62,
+    "subject": "Mathematics",
+    "question": "Frequency of class 30-40 from cumulative data:",
+    "options": ["3", "4", "48", "51"],
+    "answer": "51"
+  },
+  {
+    "id": 63,
+    "subject": "Mathematics",
+    "question": "According to Euclid, which is NOT defined term?",
+    "options": ["Plane", "Lines", "Point", "None"],
+    "answer": "Lines"
+  },
+  {
+    "id": 64,
+    "subject": "Mathematics",
+    "question": "Two-digit number: sum digits=9, adding 27 reverses digits. Number is:",
+    "options": ["27", "72", "45", "36"],
+    "answer": "36"
+  },
+  {
+    "id": 65,
+    "subject": "Mathematics",
+    "question": "Third vertex of triangle: (3,-5),(-7,4), centroid (2,-1):",
+    "options": ["10,2", "-10,2", "10,-2", "-10,-2"],
+    "answer": "10,-2"
+  },
+  {
+    "id": 66,
+    "subject": "Mathematics",
+    "question": "p=3ⁿ, q=6ⁿ×5ⁿ, decimal expansion of p/q:",
+    "options": ["Non-terminating repeating", "Terminating", "Non-terminating", "None"],
+    "answer": "Terminating"
+  },
+  {
+    "id": 67,
+    "subject": "Mathematics",
+    "question": "Assessment reducing math fear:",
+    "options": ["B and C", "A and D", "B and D", "A and B"],
+    "answer": "B and D"
+  },
+  {
+    "id": 68,
+    "subject": "Mathematics",
+    "question": "Refrigerator installment amount:",
+    "options": ["₹4800", "₹4840", "₹4860", "₹4880"],
+    "answer": "₹4840"
+  },
+  {
+    "id": 69,
+    "subject": "Mathematics",
+    "question": "If mean=24, mode=12, median=?:",
+    "options": ["25", "18", "20", "22"],
+    "answer": "20"
+  },
+  {
+    "id": 70,
+    "subject": "Mathematics",
+    "question": "Distance between (0,5) and (-5,0):",
+    "options": ["5", "5√2", "2√5", "10"],
+    "answer": "5√2"
+  },
+  {
+    "id": 71,
+    "subject": "Mathematics",
+    "question": "Angle between 90° and 180° called:",
+    "options": ["Right", "Straight", "Reflex", "Obtuse"],
+    "answer": "Obtuse"
+  },
+  {
+    "id": 72,
+    "subject": "Mathematics",
+    "question": "Value of x in triangle figure:",
+    "options": ["16°", "20°", "22°", "18°"],
+    "answer": "20°"
+  },
+  {
+    "id": 73,
+    "subject": "Mathematics",
+    "question": "Rate for ₹4000 to become ₹4410 in 2 years CI:",
+    "options": ["5%", "6%", "4%", "7%"],
+    "answer": "5%"
+  },
+  {
+    "id": 74,
+    "subject": "Mathematics",
+    "question": "Height of cylinder with CSA 1760 cm², radius 14 cm:",
+    "options": ["10 cm", "15 cm", "20 cm", "40 cm"],
+    "answer": "20 cm"
+  },
+  {
+    "id": 75,
+    "subject": "Mathematics",
+    "question": "Circumference of circle area 49π:",
+    "options": ["7π", "14π", "21π", "28π"],
+    "answer": "14π"
+  },
+  {
+    "id": 76,
+    "subject": "Mathematics",
+    "question": "Always regular polygon:",
+    "options": ["Isosceles triangle", "Square", "Pentagon", "Circle"],
+    "answer": "Square"
+  },
+  {
+    "id": 77,
+    "subject": "Mathematics",
+    "question": "Ratio of most to least common blood group (A=9,B=6,O=12,AB=3):",
+    "options": ["1:4", "1:3", "4:1", "3:1"],
+    "answer": "4:1"
+  },
+  {
+    "id": 78,
+    "subject": "Mathematics",
+    "question": "Mean of b and d if mean a,b,c,d,e=28 and mean a,c,e=24:",
+    "options": ["31", "32", "33", "34"],
+    "answer": "32"
+  },
+  {
+    "id": 79,
+    "subject": "Mathematics",
+    "question": "x if distance between (x,-1) and (3,2) is 5:",
+    "options": ["1", "-1", "7", "Both 1 and 7"],
+    "answer": "1"
+  },
+  {
+    "id": 80,
+    "subject": "Mathematics",
+    "question": "Tangent is ______ to radius through contact point:",
+    "options": ["Parallel", "Perpendicular", "Perpendicular bisector", "Bisector"],
+    "answer": "Perpendicular"
+  },
+  {
+    "id": 81,
+    "subject": "Mathematics",
+    "question": "Pair x+2y+5=0 and -3x-6y+1=0 has:",
+    "options": ["Unique solution", "Two solutions", "Infinite solutions", "No solution"],
+    "answer": "Unique solution"
+  },
+  {
+    "id": 82,
+    "subject": "Mathematics",
+    "question": "NOT irrational:",
+    "options": ["4√5", "√9 × √16 = 12", "√11", "√15"],
+    "answer": "√9 × √16 = 12"
+  },
+  {
+    "id": 83,
+    "subject": "Mathematics",
+    "question": "Roots of (x-a)(x-p)=c if a,p roots of (x-a)(x-b)+c=0:",
+    "options": ["a,b", "a,c", "b,c", "None"],
+    "answer": "a,b"
+  },
+  {
+    "id": 84,
+    "subject": "Mathematics",
+    "question": "Odd integer form for any p:",
+    "options": ["2p+1", "2p", "p+1", "p"],
+    "answer": "2p+1"
+  },
+  {
+    "id": 85,
+    "subject": "Mathematics",
+    "question": "Lines 2x-3y-2=0 and 4x-4y-5=0 are:",
+    "options": ["Intersecting", "Parallel", "Coincident", "None"],
+    "answer": "Coincident"
+  },
+  {
+    "id": 86,
+    "subject": "Mathematics",
+    "question": "If (α+1)(β+1)=0 for f(x)=x²-p(x+1)-c, then c=?:",
+    "options": ["2", "0", "1", "-1"],
+    "answer": "0"
+  },
+  {
+    "id": 87,
+    "subject": "Mathematics",
+    "question": "Equation with roots 1/α,1/β if α,β roots of 2x²-3x-6=0:",
+    "options": ["6x²-3x+2=0", "6x²+3x-2=0", "6x²-3x-2=0", "x²+3x-2=0"],
+    "answer": "6x²-3x-2=0"
+  },
+  {
+    "id": 88,
+    "subject": "Mathematics",
+    "question": "Each angle of cyclic parallelogram = ? right angles:",
+    "options": ["One", "Two", "Three", "Four"],
+    "answer": "Two"
+  },
+  {
+    "id": 89,
+    "subject": "Mathematics",
+    "question": "Mean, Median, Mode equal in:",
+    "options": ["2,2,2,2,4", "1,3,3,3,5", "1,1,2,5,6", "1,1,1,2,5"],
+    "answer": "1,3,3,3,5"
+  },
+  {
+    "id": 90,
+    "subject": "Mathematics",
+    "question": "α²+β² if roots of x²+9x+20=0:",
+    "options": ["21", "40", "41", "39"],
+    "answer": "41"
+  },
+  {
+    "id": 91,
+    "subject": "Science",
+    "question": "Natural source of oxalic acid:",
+    "options": ["Orange", "Tomato", "Vinegar", "Potato"],
+    "answer": "Tomato"
+  },
+  {
+    "id": 92,
+    "subject": "Science",
+    "question": "Metal reacting most vigorously with cold water:",
+    "options": ["Aluminium", "Potassium", "Sodium", "Calcium"],
+    "answer": "Calcium"
+  },
+  {
+    "id": 93,
+    "subject": "Science",
+    "question": "Two or more alleles of a gene called:",
+    "options": ["Polymorphism", "Homozygosity", "Heterozygosity", "Interbreeding"],
+    "answer": "Polymorphism"
+  },
+  {
+    "id": 94,
+    "subject": "Science",
+    "question": "Magnification of concave lens:",
+    "options": ["U/V", "uv", "u+v", "V/U"],
+    "answer": "V/U"
+  },
+  {
+    "id": 95,
+    "subject": "Science",
+    "question": "Water in dam possesses:",
+    "options": ["Electrical", "Kinetic", "Pot
